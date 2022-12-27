@@ -60,6 +60,8 @@ return prefixSum[end] - prefixSum[start - 1];
 
 
 ---
+- [예시 코드](https://github.com/dhksrl997/Algorithm-study/blob/main/src/main/java/PreFixSum/PreFixSumExample.java)
+
 
 #### 연관 문제
 

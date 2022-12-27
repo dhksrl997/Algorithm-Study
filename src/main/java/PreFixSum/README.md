@@ -53,7 +53,9 @@ return prefixSum[end] - prefixSum[start - 1];
 <br/>
 <br/>
 예를 들어
+<br/>
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbgovxr%2FbtrUGq5U2OW%2FiFYbGK8nA1XGKoqoJqNm50%2Fimg.png)
+<br/>
 이미지 상의 빨간 부분은 불필요 부분이고
 
 초록색으로 된 부분까지의 합 - 파란색 부분까지의 합을 이용하는 개념이다.

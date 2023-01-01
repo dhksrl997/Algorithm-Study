@@ -4,8 +4,6 @@ Created on 2022/12/27 9:42 PM In Intelli J IDEA
 by jeon-wangi
 */
 
-import java.util.Arrays;
-
 public class PreFixSumExample {
     public static void main(String[] args) {
         int[] arr = { 7, 6, 3, 2, 1 };

@@ -7,7 +7,7 @@ by jeon-wangi
 // https://school.programmers.co.kr/learn/courses/30/lessons/120902
 public class ImplementionExample {
     public static void main(String[] args) {
-        System.out.println(new ImplementionExample().solution("1 + 2 + 3"));
+        System.out.println(new ImplementionExample().solution("1 + 5 + 3"));
     }
 
     /*
@@ -25,22 +25,19 @@ public class ImplementionExample {
     */
     public int solution(String my_string) {
         int answer = 0;
-        char sign = '+';
-        for (char c : my_string.toCharArray()) {
-            if (c == ' ') continue; // 공백이면 건너뛰기
-            if (c == '+' || c == '-') // 더하기 빼기인지 확인
-                sign = c;
+        String[] nums = my_string.split(" ");
+        boolean add = true;
+        for (String s : nums) {
+            if (s.equals("+") || s.equals("-")) {
+                add = s.equals("+");
+                continue;
+            }
+
+            if (add)
+                answer += Integer.parseInt(s);
             else
-                answer = calculate(sign, Character.getNumericValue(c), answer); // 계산
+                answer -= Integer.parseInt(s);
         }
-
         return answer;
-    }
-
-    public int calculate(char sign, int num, int answer) {
-        if (sign == '+')
-            return answer += num;
-        else
-            return answer -= num;
     }
 }

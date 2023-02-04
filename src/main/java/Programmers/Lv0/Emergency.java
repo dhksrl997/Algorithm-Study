@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //    https://school.programmers.co.kr/learn/courses/30/lessons/120835
+// 진료 순서 정하기
 public class Emergency {
     public static void main(String[] args) {
         int[] arr = { 3, 76, 24 };

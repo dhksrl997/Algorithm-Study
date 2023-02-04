@@ -7,6 +7,7 @@ by jeon-wangi
 import java.util.*;
 
 //https://school.programmers.co.kr/learn/courses/30/lessons/120896
+// 한 번만 등장한 문자
 public class UniqString {
     public static void main(String[] args) {
         System.out.println(new UniqString().solution("abcabcadc"));

@@ -8,6 +8,7 @@ Created on 2023/01/26 9:14 PM In Intelli J IDEA
 by jeon-wangi
 */
 //https://school.programmers.co.kr/learn/courses/30/lessons/120812
+// 최빈값 구하기
 public class MostImpValues {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 3, 3, 4 };

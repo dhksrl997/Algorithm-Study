@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //https://school.programmers.co.kr/learn/courses/30/lessons/120894
+// 영어가 싫어요
 public class HateEnglish {
     public static void main(String[] args) {
         String numbers = "onetwothreefourfivesixseveneightnine";
